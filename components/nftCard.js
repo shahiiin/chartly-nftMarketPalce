@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import { marketplaceAddress } from "../../config";
 import NFTMarketplace from "../../artifacts/contracts/Marketplace.sol/NFTMarketplace.json";
 
@@ -29,7 +29,7 @@ export default function NFTCard({ nft, buyable }) {
   return (
     <div className="flex flex-col justify-between max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
       <div>
-        <img
+        <Image
           className="h-60 w-full object-cover rounded-t-lg"
           src={nft.image}
           alt={nft.title}
