@@ -1,14 +1,23 @@
+import Pic3 from '../assets/Pic3.jpg'
+import Pic4 from '../assets/Pic4.jpg'
+import Image from 'next/image';
+
+
+
+
 export default function CollectionCard() {
+
   return (
     <div className="h-screen flex items-center justify-center bg-gray-200">
       <card className="w-1/3 bg-white border border-gray-100 rounded-lg text-center hover:shadow-lg align-center">
         <a href="">
-          <img src="https://picsum.photos/500/300" className="rounded-t-lg" />
+          <Image src={Pic4} alt="pic4" className="rounded-t-lg" />
         </a>
         <a href="">
           <div className="flex justify-center">
-            <img
-              src="https://picsum.photos/50/50"
+            <Image
+              src={Pic3}
+              alt="pic3"
               className="rounded-full object-center border-4 border-white -mt-6 shadow-lg align-center"
             />
           </div>
