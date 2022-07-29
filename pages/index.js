@@ -7,6 +7,11 @@ import {
   ServerIcon,
   ShieldCheckIcon,
 } from "@heroicons/react/outline";
+import Image from "next/image";
+import Pic5 from "../assets/pic5.avif"
+import Pic6 from "../assets/pic6.avif"
+import Pic7 from '../assets/pic7.svg'
+import Table from '../assets/table.jpg'
 import { ChevronRightIcon, ExternalLinkIcon } from "@heroicons/react/solid";
 
 const navigation = [
@@ -60,14 +65,12 @@ const blogPosts = [
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     category: { name: "Article", href: "#" },
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+    imageUrl:require('../assets/pic13.avif'),
     preview:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
     author: {
       name: "Roel Aufderehar",
-      imageUrl:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      imageUrl:require('../assets/pic12.avif'),
       href: "#",
     },
     readingLength: "6 min",
@@ -79,14 +82,12 @@ const blogPosts = [
     date: "Mar 10, 2020",
     datetime: "2020-03-10",
     category: { name: "Article", href: "#" },
-    imageUrl:
-      "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+    imageUrl:require('../assets/pic11.avif'),
     preview:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
     author: {
       name: "Brenna Goyette",
-      imageUrl:
-        "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      imageUrl:require('../assets/pic10.avif'),
       href: "#",
     },
     readingLength: "4 min",
@@ -98,14 +99,12 @@ const blogPosts = [
     date: "Feb 12, 2020",
     datetime: "2020-02-12",
     category: { name: "Case Study", href: "#" },
-    imageUrl:
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+    imageUrl:require('../assets/pic9.avif'),
     preview:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
     author: {
       name: "Daniela Metz",
-      imageUrl:
-        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      imageUrl:require('../assets/pic8.avif'),
       href: "#",
     },
     readingLength: "11 min",
@@ -239,9 +238,9 @@ export default function Home() {
                 <div className="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
                   <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                     {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
-                    <img
+                    <Image
                       className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                      src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg"
+                      src={Pic7}
                       alt=""
                     />
                   </div>
@@ -267,9 +266,9 @@ export default function Home() {
                 </p>
               </div>
               <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
-                <img
+                <Image
                   className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-                  src="https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg"
+                  src={Table}
                   alt=""
                 />
               </div>
@@ -329,9 +328,9 @@ export default function Home() {
                 />
                 <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
                   <div className="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-                    <img
+                    <Image
                       className="object-cover lg:h-full lg:w-full"
-                      src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
+                      src={Pic6}
                       alt=""
                     />
                   </div>
@@ -391,7 +390,7 @@ export default function Home() {
                     className="flex flex-col rounded-lg shadow-lg overflow-hidden"
                   >
                     <div className="flex-shrink-0">
-                      <img
+                      <Image
                         className="h-48 w-full object-cover"
                         src={post.imageUrl}
                         alt=""
@@ -419,7 +418,7 @@ export default function Home() {
                       <div className="mt-6 flex items-center">
                         <div className="flex-shrink-0">
                           <a href={post.author.href}>
-                            <img
+                            <Image
                               className="h-10 w-10 rounded-full"
                               src={post.author.imageUrl}
                               alt={post.author.name}
@@ -452,9 +451,9 @@ export default function Home() {
           {/* CTA Section */}
           <div className="relative bg-gray-900">
             <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-              <img
+              <Image
                 className="w-full h-full object-cover"
-                src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&sat=-100"
+                src={Pic5}
                 alt=""
               />
               <div
