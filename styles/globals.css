@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 html,
 body {
@@ -16,4 +17,5 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
 }
