@@ -1,11 +1,10 @@
+import connect from "./utils/auth";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
 import { useEffect, useState } from "react";
-import connect from "./utils/auth";
 import Logo from '../assets/cultchain.svg'
 
 
