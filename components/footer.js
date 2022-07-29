@@ -1,13 +1,24 @@
+import Logo from '../assets/cultchain.svg'
+import Image from 'next/image';
+
+
+
+
 export default function Footer() {
+
+
   return (
+
+
     <footer className="mt-4 bg-white shadow md:px-6 md:py-8 dark:bg-gray-800">
       <div className="sm:flex sm:items-center sm:justify-between">
         <a
           href="https://flowbite.com"
           className="flex items-center mb-4 sm:mb-0"
         >
-          {/* <img src="" class="mr-3 h-8" alt="Flowbite Logo" /> */}
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <Image src={Logo} class="mr-3 h-8" alt="Flowbite Logo"  height={40}
+            width={40} />
+          <span className="self-center ml-2 text-2xl font-semibold whitespace-nowrap dark:text-white">
             NFT Marketplace
           </span>
         </a>
