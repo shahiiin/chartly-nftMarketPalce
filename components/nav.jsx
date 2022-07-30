@@ -21,7 +21,7 @@ export default function Nav() {
   }
 
   return (
-    <nav className="bg-tertiary px-2 sm:px-2 py-2.5">
+    <nav className="bg-tertiary px-2 sm:px-2 py-2.5 border-b">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link href="/">
           <div className="flex items-center cursor-pointer">
@@ -31,7 +31,7 @@ export default function Nav() {
               height={40}
               width={40}
             />
-            <div className="ml-[0.8rem] text-white font-semibold text-2xl">Cultchain</div>
+            <div className="ml-[0.8rem] text-primary font-semibold text-2xl">Cultchain</div>
           </div>
         </Link>
         <div className="flex md:order-2 md:hidden">
@@ -46,27 +46,27 @@ export default function Nav() {
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  text-xl text-primary">
             <li className="py-2 md:py-0">
               <Link href="/explore">
-                <div className="text-white px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer">Explore</div>
+                <div className="text-primary px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer">Explore</div>
               </Link>
             </li>
             <li className="py-2 md:py-0">
               <Link href="/create-nft">
-                <div className="text-white px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer">Mint</div>
+                <div className="text-primary px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer">Mint</div>
               </Link>
             </li>
             <li className="py-2 md:py-0">
               <Link href="/my-nfts">
-                <div className="text-white px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer">My NFTs</div>
+                <div className="text-primary px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer">My NFTs</div>
               </Link>
             </li>
             <li className="py-2 md:py-0">
               <Link href="/dashboard">
-                <div className="text-white px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer">Dashboard</div>
+                <div className="text-primary px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer">Dashboard</div>
               </Link>
             </li>
             <li className="py-2 md:py-0">
               <Link href="/create-collections">
-                <div className="text-white px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer">Collections</div>
+                <div className="text-primary px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer">Collections</div>
               </Link>
             </li>
           </ul>

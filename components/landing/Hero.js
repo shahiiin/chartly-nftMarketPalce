@@ -12,18 +12,17 @@ export default function Hero() {
             data-aos-duration="2000"
           >
             <h1 className="text-5xl text-center md:text-left md:text-8xl font-primary font-semibold text-primary">
-              Discover{" "}
+            Blockchain{" "}
               <span className="text-secondary underline decoration-solid">
-                Rare 3D Collections
+              Defacto
               </span>{" "}
-              in the{" "}
-              <span className="text-secondary underline decoration-solid">
-                World
-              </span>
+              <br/>
+              For charities{" "}
             </h1>
             <p className="text-primary md:text-xl">
-              The largest 3D NFT marketplace authentic and truly unique digital
-              creation. Create yout own NFT dream gallery
+              Cultchain is a Blockchain based charity which aims to bring transparency and Trust to charities and NGOs.
+              {/* The largest 3D NFT marketplace authentic and truly unique digital
+              creation. Create yout own NFT dream gallery */}
             </p>
             <div className="flex justify-between w-3/4">
               <div className="text-primary text-center">

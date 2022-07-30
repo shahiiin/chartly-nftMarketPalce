@@ -21,10 +21,11 @@ export default function Collections() {
           {data.map((item,index) => {
           return(
           <div key={index} data-aos="fade-up" data-aos-duration="3000">
-                <div className="border-2 md:border-4 bg-background rounded-2xl border-tertiary w-full p-3 flex flex-col gap-4 hover:scale-105 transition-all cursor-pointer ">
+                <div className="border-2 md:border-4 bg-background rounded-2xl border-tertiary  p-3 flex flex-col gap-4 hover:scale-105 transition-all cursor-pointer ">
                   <img
                     src={`/img/${item.image}`}
                     alt=""
+                    className="h-[250px]"
                    />
                   <div>
                     <h1 className="font-primary text-tertiary font-bold text-xl md:text-3xl">

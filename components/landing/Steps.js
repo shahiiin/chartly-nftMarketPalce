@@ -15,7 +15,7 @@ export default function Steps() {
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-14 py-8">
           <div className="bg-primary text-tertiary text-center rounded-2xl border-tertiary w-full p-2 md:p-4 flex flex-col items-center gap-3 cursor-pointer hover:scale-105 transition-all">
-            <img src="/img/steps-1.jpeg" alt="" className="w-3/4" />
+            <img src="/img/steps-1.jpeg" alt="" className="w-full" />
             <h1 className="text-2xl md:text-4xl font-primary font-bold">
               Create Artwork
             </h1>
@@ -25,7 +25,7 @@ export default function Steps() {
             </p>
           </div>
           <div className="bg-primary text-tertiary text-center rounded-2xl border-tertiary w-full p-2 md:p-4 flex flex-col items-center gap-3 cursor-pointer hover:scale-105 transition-all">
-            <img src="/img/steps-2.jpeg" alt="" className="w-3/4" />
+            <img src="/img/steps-2.jpeg" alt="" className="w-full" />
             <h1 className="text-2xl md:text-4xl font-primary font-bold">
               Add your NFTs
             </h1>
@@ -35,7 +35,7 @@ export default function Steps() {
             </p>
           </div>
           <div className="bg-primary text-tertiary text-center rounded-2xl border-tertiary w-full p-2 md:p-4 flex flex-col items-center gap-3 cursor-pointer hover:scale-105 transition-all col-span-2 md:col-span-1">
-            <img src="/img/steps-3.jpeg" alt="" className="w-full md:w-3/4" />
+            <img src="/img/steps-3.jpeg" alt="" className="w-full" />
             <h1 className="text-2xl md:text-4xl font-primary font-bold">
               List them for sale
             </h1>

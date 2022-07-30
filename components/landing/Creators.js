@@ -49,12 +49,11 @@ export default function Creators() {
         {data.map((item,index) => {
           return(
             <div key={index} className="flex items-center gap-3 mr-4 md:mr-12 cursor-pointer hover:scale-105 transition-all">
-            <Image
+            <img
               src={`/img/${item.image}`}
               alt=""
               className="rounded-full w-1/4 md:w-auto"
-              width={50}
-              height={50}
+            
             />
             <div className="text-tertiary">
               <p className="font-primary text-lg md:text-2xl font-semibold">
