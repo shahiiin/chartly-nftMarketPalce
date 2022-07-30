@@ -1,6 +1,5 @@
 import Button from "./Button";
 import { FaEthereum } from "react-icons/fa";
-import Image from "next/image";
 import data from "../../data/item-nft.json";
 
 export default function Collections() {
@@ -25,7 +24,7 @@ export default function Collections() {
                   <img
                     src={`/img/${item.image}`}
                     alt=""
-                    className="h-[250px]"
+                    className="h-[250px] rounded-sm"
                    />
                   <div>
                     <h1 className="font-primary text-tertiary font-bold text-xl md:text-3xl">
@@ -41,11 +40,8 @@ export default function Collections() {
                   </div>
                 </div>
               </div>
-             
-          )
-              
-            
-          })}
+             )
+              })}
         </div>
       </div>
     </>

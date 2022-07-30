@@ -1,15 +1,17 @@
 import Image from "next/image";
-
+import Table from '../../assets/table.jpg'
 
 
 export default function Steps() {
   return (
     <>
+ 
       <div
         className="container mx-auto py-10 md:py-20 px-3 md:px-0"
         data-aos="fade-up"
         data-aos-duration="2000"
       >
+           
         <h1 className="font-primary text-tertiary font-bold text-3xl md:text-6xl text-center mb-0 md:mg-8">
           Create and sell your NFTs
         </h1>

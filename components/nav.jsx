@@ -24,6 +24,7 @@ export default function Nav() {
     <nav className="bg-tertiary px-2 sm:px-2 py-2.5 border-b">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link href="/">
+          <a>
           <div className="flex items-center cursor-pointer">
             <Image
               src={Logo}
@@ -33,6 +34,8 @@ export default function Nav() {
             />
             <div className="ml-[0.8rem] text-primary font-semibold text-2xl">Cultchain</div>
           </div>
+          </a>
+        
         </Link>
         <div className="flex md:order-2 md:hidden">
           <button type="button" onClick={() => setActive(!active)}>
