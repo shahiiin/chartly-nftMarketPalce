@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "item-1.png",
+    "image": "item-1.jpeg",
     "title": "Knight Sword",
     "username": "santosox",
     "price": 3
@@ -15,28 +15,28 @@
   },
   {
     "id": 3,
-    "image": "item-3.png",
+    "image": "item-3.jpeg",
     "title": "Skater Girl",
     "username": "inoino",
     "price": 10.5
   },
   {
     "id": 4,
-    "image": "item-4.png",
+    "image": "item-4.jpeg",
     "title": "Grogu",
     "username": "alexio",
     "price": 20.5
   },
   {
     "id": 5,
-    "image": "item-5.png",
+    "image": "item-5.jpeg",
     "title": "Foodies",
     "username": "animola",
     "price": 7
   },
   {
     "id": 6,
-    "image": "item-6.png",
+    "image": "item-6.jpeg",
     "title": "Friends Kawaii",
     "username": "kunai",
     "price": 80
