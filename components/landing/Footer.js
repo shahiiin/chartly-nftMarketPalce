@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       <div
-        className="border-t-4 border-tertiary mt-16 py-10 text-tertiary"
+        className="border-t-4 bg-tertiary border-brown mt-16 py-10 text-dark"
         data-aos="fade-up"
         data-aos-duration="2000"
       >
@@ -32,13 +32,13 @@ export default function Footer() {
             </div>
             <div className="col-span-2 md:col-span-1 flex flex-col items-center md:items-start">
               <h2 className="font-primary font-bold text-2xl">Subscribe</h2>
-              <button className="bg-transparent hover:bg-primary mt-6 text-tertiary border-tertiary hover:border-primary px-8 py-3 border-2 rounded-full font-semibold transition-all flex items-center gap-2">
+              <button className="bg-transparent hover:text-tertiary hover:bg-dark mt-6 text-dark border-dark hover:border-dark px-8 py-3 border-2 rounded-full font-semibold transition-all flex items-center gap-2">
                 Get NFT Updates <FaArrowRight />
               </button>
             </div>
           </div>
-          <hr className="my-6 border-tertiary lg:my-8" />
-      <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <hr className="my-6 border-brown lg:my-8" />
+      <span className="block text-sm text-brown sm:text-center dark:text-gray-400">
         © 2022{" "}
         <a href="https://flowbite.com" className="hover:underline">
           NFT Marketplace™

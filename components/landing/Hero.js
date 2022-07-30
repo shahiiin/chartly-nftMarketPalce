@@ -5,22 +5,22 @@ import Avatar from '../../public/img/avatar.jpg'
 export default function Hero() {
   return (
     <>
-      <div className="bg-tertiary py-20 md:py-24 h-[700px]">
+      <div className="bg-yellow py-20 md:py-24 h-[700px]">
         <div className="grid grid-cols-1 md:grid-cols-2 container mx-auto">
           <div
             className="flex flex-col gap-8 text-center items-center md:text-left md:items-start"
             data-aos="fade-up"
             data-aos-duration="2000"
           >
-            <h1 className="text-5xl text-center md:text-left md:text-8xl font-primary font-semibold text-primary">
+            <h1 className="text-5xl text-center md:text-left md:text-8xl font-primary font-semibold text-dark">
             Blockchain{" "}
-              <span className="text-secondary underline decoration-solid">
+              <span className="text-brown  decoration-solid">
               Defacto
               </span>{" "}
               <br/>
               For charities{" "}
             </h1>
-            <p className="text-primary md:text-xl">
+            <p className="text-dark md:text-xl">
               Cultchain is a Blockchain based charity which aims to bring transparency and Trust to charities and NGOs.
             </p>
            </div>
