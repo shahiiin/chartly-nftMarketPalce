@@ -1,6 +1,13 @@
 import Button from "./Button";
 import Image from "next/image";
 import Avatar from '../../public/img/avatar.jpg'
+import Spline from "@splinetool/react-spline";
+
+
+
+
+
+
 
 export default function Hero() {
   return (
@@ -24,12 +31,14 @@ export default function Hero() {
               Cultchain is a Blockchain based charity which aims to bring transparency and Trust to charities and NGOs.
             </p>
            </div>
-          <div>
-            <Image src={Avatar} alt="avatar"
-            width={550}
-            height={550}
+          <div className="bg-red-200 h-[500px]"
+            data-aos="fade-up"
+            data-aos-duration="300">
+          <Spline
+          className="h-[500px]"
            
-            />
+           scene="https://prod.spline.design/jYgcJgwO1Qqos7PT/scene.splinecode"
+           />
           </div>
         </div>
       </div>

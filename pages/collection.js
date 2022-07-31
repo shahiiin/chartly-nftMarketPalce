@@ -3,6 +3,10 @@ import { CgWebsite } from "react-icons/cg";
 import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { HiDotsVertical } from "react-icons/hi";
 import NFTCards from "../components/NFTCards";
+import Image from 'next/image'
+import Pic1 from '../assets/pic1.png'
+import Pic2 from '../assets/pic2.png'
+import Pic3 from '../assets/Pic3.jpg'
 
 const style = {
   bannerImageContainer: `h-[20vh] w-screen overflow-hidden flex justify-center items-center`,
@@ -32,25 +36,18 @@ export default function Collections() {
   return (
     <div className="overflow-hidden">
       <div className={style.bannerImageContainer}>
-        <img
-          className={style.bannerImage}
-          src={
-            collection?.bannerImageUrl
-              ? collection.bannerImageUrl
-              : "https://s11.favim.com/orig/7/760/7603/76030/twitter-header-art-Favim.com-7603077.jpg"
-          }
+        <Image
+        
+          src={Pic1}
           alt="banner"
         />
       </div>
       <div className={style.infoContainer}>
         <div className={style.midRow}>
-          <img
-            className={style.profileImg}
-            src={
-              collection?.imageUrl
-                ? collection.imageUrl
-                : "https://dailygazette.com/wp-content/uploads/fly-images/132597/APTOPIX_Bitcoin_Found_ONe-scaled-940x940.jpg"
-            }
+          
+          <Image
+          
+            src={Pic2}
             alt="profile image"
           />
         </div>
@@ -105,10 +102,10 @@ export default function Collections() {
           </div>
           <div className={style.collectionStat}>
             <div className={style.statValue}>
-              <img
-                src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
+              <Image
+                 src={Pic3}
+             
                 alt="eth"
-                className={style.ethLogo}
               />
               {collection?.floorPrice ? collection.floorPrice : "0.1"}
             </div>
@@ -116,10 +113,10 @@ export default function Collections() {
           </div>
           <div className={style.collectionStat}>
             <div className={style.statValue}>
-              <img
-                src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
-                alt="eth"
-                className={style.ethLogo}
+              <Image
+                 src={Pic1}
+                 alt="eth"
+              
               />
               {collection?.volumeTraded}.5K
             </div>

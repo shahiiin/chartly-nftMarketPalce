@@ -1,9 +1,3 @@
-import Logo from '../assets/cultchain.svg'
-import Image from 'next/image';
-
-
-
-
 export default function Footer() {
 
 

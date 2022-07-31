@@ -112,12 +112,12 @@ export default function CreateCollection() {
             </svg>
             <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-left">
-                <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+                <h1 className="text-4xl tracking-tight font-extrabold text-brown sm:text-5xl md:text-6xl">
                   <span className="block xl:inline">
                     Create Your Own Collection
                   </span>
                 </h1>
-                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                <p className="mt-3 text-base text-tertiary sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   Your Collections can be Musics, Art Pics, Video, GIF, etc.
                   Share it with your friends and community.
                 </p>
@@ -146,21 +146,19 @@ export default function CreateCollection() {
                     Collection Title
                   </label>
                   <div className="mt-1 flex rounded-md shadow-sm">
-                    <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 text-sm">
-                      @
-                    </span>
+                 
                     <input
                       type="text"
                       name="collection-title"
                       id="collection-title"
-                      className="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block rounded-none rounded-r-md sm:text-sm border-gray-300"
+                      className="bg-tertiary focus:ring-indigo-500 focus:border-indigo-500 flex-1 block rounded-md sm:text-sm border-gray-300 p-3"
                       onChange={(e) =>
                         updateFormInput({
                           ...formInput,
                           title: e.target.value,
                         })
                       }
-                      placeholder="Bored Apes"
+                      placeholder="@Bored Apes"
                     />
                   </div>
                 </div>
@@ -178,8 +176,8 @@ export default function CreateCollection() {
                     id="Description"
                     name="description"
                     rows={3}
-                    className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
-                    placeholder="It's a collection of ..."
+                    className="bg-tertiary shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3"
+                    placeholder="It's a collection of ... "
                     onChange={(e) =>
                       updateFormInput({
                         ...formInput,
@@ -202,19 +200,19 @@ export default function CreateCollection() {
                 </label>
                 <select
                   className="form-select mt-4
+                  p-3
                     w-full
-                    px-3
-                    py-1.5
+                   
                     text-base
                     font-normal
                     text-gray-700
-                    bg-white bg-clip-padding bg-no-repeat
+                    bg-tertiary bg-clip-padding bg-no-repeat
                     border border-solid border-gray-300
                     rounded
                     transition
                     ease-in-out
                     m-0
-                    focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                    focus:text-gray-700 focus:bg-tertiary focus:border-blue-600 focus:outline-none"
                   aria-label="Default select example"
                   defaultValue={value}
                   onChange={(e) =>
@@ -336,7 +334,7 @@ export default function CreateCollection() {
               <button
                 type="button"
                 onClick={createCollection}
-                className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md bg-tertiary"
               >
                 Create Collection
               </button>
