@@ -12,7 +12,7 @@ export default function Collections() {
         data-aos-duration="2000"
       >
         <div className="flex justify-between items-center">
-          <h1 className="font-primary text-tertiary font-bold text-3xl md:text-5xl">
+          <h1 className="text-5xl mt-24 text-center md:text-left md:text-8xl font-primary font-semibold  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400">
             Hot Drops
           </h1>
           <Button text="View More" variant="secondary" />

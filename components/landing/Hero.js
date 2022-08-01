@@ -19,15 +19,15 @@ export default function Hero() {
             data-aos="fade-up"
             data-aos-duration="2000"
           >
-            <h1 className="text-5xl text-center md:text-left md:text-8xl font-primary font-semibold text-dark">
+            <h1 className="text-5xl text-center md:text-left md:text-8xl text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400">
             Blockchain{" "}
-              <span className="text-brown  decoration-solid">
+              <span className=" text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400">
               Defacto
               </span>{" "}
               <br/>
               For charities{" "}
             </h1>
-            <p className="text-dark md:text-xl">
+            <p className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400 md:text-xl">
               Cultchain is a Blockchain based charity which aims to bring transparency and Trust to charities and NGOs.
             </p>
            </div>
