@@ -18,24 +18,25 @@ export default function Collections() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-14 py-8">
           {data.map((item,index) => {
+      
           return(
           <div key={index} data-aos="fade-up" data-aos-duration="3000">
-                <div className="border-2 md:border-4 bg-background rounded-2xl border-[#34c2ac]  p-3 flex flex-col gap-4 hover:scale-105 transition-all cursor-pointer ">
+                <div className="border-2 md:border-4  rounded-2xl border-[#34c2ac]  p-3 flex flex-col gap-4 hover:scale-105 transition-all cursor-pointer ">
                   <img
                     src={`/img/${item.image}`}
                     alt=""
                     className="h-[250px] rounded-sm"
                    />
                   <div>
-                    <h1 className="font-primary text-tertiary font-bold text-xl md:text-3xl">
+                    <h1 className="font-primary text-[#34c2ac] font-bold text-xl md:text-3xl">
                       {item.title}
                     </h1>
-                    <p className="text-tertiary">@{item.username}</p>
+                    <p className="text-[#34c2ac]">@{item.username}</p>
                   </div>
                   <div className="flex justify-between items-center">
-                    <p className="text-tertiary font-bold">{item.price} ETH</p>
-                    <div className="bg-secondary p-2 rounded-full">
-                      <FaEthereum color="#ECDBBA" size="1rem" />
+                    <p className="text-[#34c2ac] font-bold">{item.price} ETH</p>
+                    <div className="bg-[#542167] p-2 rounded-full">
+                      <FaEthereum color="#34c2ac" size="1rem" />
                     </div>
                   </div>
                 </div>
