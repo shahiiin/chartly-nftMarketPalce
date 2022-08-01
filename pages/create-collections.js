@@ -112,7 +112,7 @@ export default function CreateCollection() {
             </svg>
             <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-left">
-                <h1 className="text-4xl tracking-tight font-extrabold text-brown sm:text-5xl md:text-6xl">
+                <h1 className="text-4xl tracking-tight font-extrabold text-tertiary sm:text-5xl md:text-6xl">
                   <span className="block xl:inline">
                     Create Your Own Collection
                   </span>
@@ -135,7 +135,7 @@ export default function CreateCollection() {
       </div>
       <div>
         <form className="flex justify-center">
-          <div className="w-1/2 shadow sm:rounded-md sm:overflow-hidden">
+          <div className="w-1/2  sm:rounded-md sm:overflow-hidden">
             <div className="px-4 py-5 bg-gray-999 space-y-6">
               <div className="grid grid-cols-3 gap-6">
                 <div className="col-span-3 sm:col-span-2">
@@ -151,7 +151,7 @@ export default function CreateCollection() {
                       type="text"
                       name="collection-title"
                       id="collection-title"
-                      className="bg-tertiary focus:ring-indigo-500 focus:border-indigo-500 flex-1 block rounded-md sm:text-sm border-gray-300 p-3"
+                      className="bg-tertiary placeholder-brown focus:ring-indigo-500 focus:border-indigo-500 flex-1 block rounded-md sm:text-sm border-gray-300 p-3"
                       onChange={(e) =>
                         updateFormInput({
                           ...formInput,
@@ -176,7 +176,7 @@ export default function CreateCollection() {
                     id="Description"
                     name="description"
                     rows={3}
-                    className="bg-tertiary shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3"
+                    className= "placeholder-brown bg-tertiary shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3"
                     placeholder="It's a collection of ... "
                     onChange={(e) =>
                       updateFormInput({
@@ -202,7 +202,7 @@ export default function CreateCollection() {
                   className="form-select mt-4
                   p-3
                     w-full
-                   
+                   placeholder-brown
                     text-base
                     font-normal
                     text-gray-700
