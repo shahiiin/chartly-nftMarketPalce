@@ -24,7 +24,7 @@ export default function Button(props) {
   return (
     <a
       href="#x"
-      className={` ${sizeBtn()} ${variantBtn()} tracking-wider font-primary font-bold border-2 rounded-full transition-all`}
+      className={` ${sizeBtn()} ${variantBtn()} tracking-wider  font-bold border-2 rounded-full transition-all text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400`}
     >
       {text}
     </a>

@@ -1,6 +1,6 @@
 import Button from "./Button";
 import Image from "next/image";
-import Avatar from '../../public/img/avatar.jpg'
+import Avatar from '../../public/img/NFT.png'
 import Spline from "@splinetool/react-spline";
 
 
