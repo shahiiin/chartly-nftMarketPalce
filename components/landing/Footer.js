@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       <div
-        className="border-t-4 bg-tertiary border-brown mt-16 py-10 text-dark"
+        className="border-t-4 border-[#4e2f6b] bg-gradient-to-r from-[#542167] to-[#34c2ac]mt-25 py-10 text-dark"
         data-aos="fade-up"
         data-aos-duration="2000"
       >
@@ -14,33 +14,34 @@ export default function Footer() {
             <div className="flex col-span-2">
             <Image src={Logo} className="mr-3  h-8" alt="Flowbite Logo"  height={40}
             width={40} />
-          <span className="self-center ml-2 text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center ml-2 text-2xl font-semibold whitespace-nowrap text-[#2b0351]">
             NFT Marketplace
           </span>
             </div>
             <div>
-              <h2 className="font-primary font-bold text-2xl">Quick Links</h2>
-              <p className="mt-6">About</p>
-              <p>Blog</p>
-              <p>Press</p>
+              <h2 className="text-[#2b0351] font-bold text-2xl">Quick Links</h2>
+              <p className="mt-6 text-[#2b0351]">About</p>
+              <p className="text-[#2b0351]">Blog</p>
+              <p className="text-[#2b0351]">Press</p>
             </div>
             <div>
-              <h2 className="font-primary font-bold text-2xl">Resources</h2>
-              <p className="mt-6">Help Center</p>
-              <p>Community</p>
-              <p>Partners</p>
+              <h2 className="text-[#2b0351] font-bold text-2xl">Resources</h2>
+              <p className="mt-6 text-[#2b0351]">Help Center</p>
+              <p className="text-[#2b0351]">Community</p>
+              <p className="text-[#2b0351]">Partners</p>
             </div>
             <div className="col-span-2 md:col-span-1 flex flex-col items-center md:items-start">
-              <h2 className="font-primary font-bold text-2xl">Subscribe</h2>
-              <button className="bg-transparent hover:text-tertiary hover:bg-dark mt-6 text-dark border-dark hover:border-dark px-8 py-3 border-2 rounded-full font-semibold transition-all flex items-center gap-2">
+              <h2 className="font-primary font-bold text-2xl text-[#2b0351]">Subscribe</h2>
+              <button className="bg-transparent hover:text-tertiary hover:bg-[#7c498f] mt-6 text-[#2b0351] border-[#2b0351] hover:border-[#7c498f]  px-8 py-3 border-2 rounded-full font-semibold transition-all flex items-center gap-2">
                 Get NFT Updates <FaArrowRight />
               </button>
             </div>
           </div>
-          <hr className="my-6 border-brown lg:my-8" />
-      <span className="block text-sm text-brown sm:text-center dark:text-gray-400">
+          <hr className="my-6 border-[#4e2f6b] lg:my-8" />
+      <span className="block text-sm  sm:text-center 
+      text-[#2b0351]">
         © 2022{" "}
-        <a href="https://flowbite.com" className="hover:underline">
+        <a href="https://flowbite.com" className="hover:underline text-[#2b0351]">
           NFT Marketplace™
         </a>
         . All Rights Reserved.

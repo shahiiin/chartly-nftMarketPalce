@@ -16,7 +16,7 @@ export default function Steps() {
           Create and sell your NFTs
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-14 py-8">
-          <div className="bg-gradient-to-r from-[#542167] to-[#34c2ac] text-center rounded-2xl border-tertiary w-full p-2 md:p-4 flex flex-col items-center gap-3 cursor-pointer hover:scale-105 transition-all">
+          <div className="bg-gradient-to-r from-[#542167] to-[#34c2ac] text-center rounded-2xl border-tertiary w-full p-2 md:p-4 flex flex-col items-center gap-3 cursor-pointer hover:scale-105 transition-all col-span-2 md:col-span-1">
             <img src="/img/steps-1.jpeg" alt="" className="w-full" />
             <h1 className="text-2xl md:text-4xl text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400  font-bold">
               Create Artwork
@@ -26,7 +26,7 @@ export default function Steps() {
               banner images, and set a secondary sales fee
             </p>
           </div>
-          <div className="bg-gradient-to-r from-[#542167] to-[#34c2ac] text-center rounded-2xl border-tertiary w-full p-2 md:p-4 flex flex-col items-center gap-3 cursor-pointer hover:scale-105 transition-all">
+          <div className="bg-gradient-to-r from-[#542167] to-[#34c2ac] text-center rounded-2xl border-tertiary w-full p-2 md:p-4 flex flex-col items-center gap-3 cursor-pointer hover:scale-105 transition-all col-span-2 md:col-span-1">
             <img src="/img/steps-2.jpeg" alt="" className="w-full" />
             <h1 className="text-2xl md:text-4xl  font-bold text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400">
               Add your NFTs
