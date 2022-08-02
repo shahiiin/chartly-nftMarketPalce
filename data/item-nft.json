@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "image": "item-1.jpeg",
+    "image": "nft10.jpeg",
     "title": "Knight Sword",
     "username": "santosox",
     "price": 3
   },
   {
     "id": 2,
-    "image": "item-2.png",
+    "image": "nft20.jpeg",
     "title": "Daft Punk",
     "username": "punix",
     "price": 2.34
   },
   {
     "id": 3,
-    "image": "item-3.jpeg",
+    "image": "nft30.jpeg",
     "title": "Skater Girl",
     "username": "inoino",
     "price": 10.5
   },
   {
     "id": 4,
-    "image": "item-4.jpeg",
+    "image": "nft40.jpeg",
     "title": "Grogu",
     "username": "alexio",
     "price": 20.5
   },
   {
     "id": 5,
-    "image": "item-5.jpeg",
+    "image": "nft50.jpeg",
     "title": "Foodies",
     "username": "animola",
     "price": 7
   },
   {
     "id": 6,
-    "image": "item-6.jpeg",
+    "image": "nft60.jpeg",
     "title": "Friends Kawaii",
     "username": "kunai",
     "price": 80

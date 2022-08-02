@@ -25,7 +25,7 @@ export default function Collections() {
                   <img
                     src={`/img/${item.image}`}
                     alt=""
-                    className="h-[250px] rounded-sm"
+                    className="h-[160px] rounded-sm"
                    />
                   <div>
                     <h1 className="font-primary text-[#34c2ac] font-bold text-xl md:text-3xl">
