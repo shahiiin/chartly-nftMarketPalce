@@ -114,12 +114,12 @@ export default function CreateCollection() {
             </svg>
             <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-left">
-                <h1 className="text-4xl tracking-tight font-extrabold text-tertiary sm:text-5xl md:text-6xl">
-                  <span className="block xl:inline">
+                <h1 className="text-4xl tracking-tight font-extrabold text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400 sm:text-5xl md:text-6xl">
+                  <span className="block xl:inline text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400">
                     Create Your Own Collection
                   </span>
                 </h1>
-                <p className="mt-3 text-base text-tertiary sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                <p className="mt-3 text-base text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   Your Collections can be Musics, Art Pics, Video, GIF, etc.
                   Share it with your friends and community.
                 </p>
@@ -143,7 +143,7 @@ export default function CreateCollection() {
                 <div className="col-span-3 sm:col-span-2">
                   <label
                     htmlFor="collection-title"
-                    className="block text-sm font-medium text-white"
+                    className="block text-sm font-medium text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400"
                   >
                     Collection Title
                   </label>
@@ -153,7 +153,7 @@ export default function CreateCollection() {
                       type="text"
                       name="collection-title"
                       id="collection-title"
-                      className="bg-tertiary placeholder-brown focus:ring-indigo-500 focus:border-indigo-500 flex-1 block rounded-md sm:text-sm border-gray-300 p-3"
+                      className=" border-[#4e2f6b] bg-gradient-to-r from-[#542167] to-[#328a7d] placeholder-white focus:ring-indigo-500 focus:border-indigo-500 flex-1 block rounded-md sm:text-sm  p-3"
                       onChange={(e) =>
                         updateFormInput({
                           ...formInput,
@@ -169,7 +169,7 @@ export default function CreateCollection() {
               <div>
                 <label
                   htmlFor="description"
-                  className="block text-sm font-medium text-white"
+                  className="block text-sm font-medium text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400"
                 >
                   Description
                 </label>
@@ -178,7 +178,7 @@ export default function CreateCollection() {
                     id="Description"
                     name="description"
                     rows={3}
-                    className= "placeholder-brown bg-tertiary shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3"
+                    className= "placeholder-white  border-[#4e2f6b] bg-gradient-to-r from-[#542167] to-[#328a7d] shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border  rounded-md p-3"
                     placeholder="It's a collection of ... "
                     onChange={(e) =>
                       updateFormInput({
@@ -188,7 +188,7 @@ export default function CreateCollection() {
                     }
                   />
                 </div>
-                <p className="mt-2 text-sm text-white">
+                <p className="mt-2 text-sm text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400">
                   Brief description for your profile.
                 </p>
               </div>
@@ -196,7 +196,7 @@ export default function CreateCollection() {
               <div>
                 <label
                   htmlFor="type"
-                  className="block text-sm font-medium text-white"
+                  className="block text-sm font-medium text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400"
                 >
                   Collection Type
                 </label>
@@ -204,12 +204,12 @@ export default function CreateCollection() {
                   className="form-select mt-4
                   p-3
                     w-full
-                   placeholder-brown
+                   placeholder-white
                     text-base
                     font-normal
-                    text-gray-700
-                    bg-tertiary bg-clip-padding bg-no-repeat
-                    border border-solid border-gray-300
+                    text-white
+                    border-[#4e2f6b] bg-gradient-to-r from-[#542167] to-[#328a7d] bg-clip-padding bg-no-repeat
+                    border border-solid 
                     rounded
                     transition
                     ease-in-out
@@ -222,7 +222,7 @@ export default function CreateCollection() {
                   }
                 >
                   <option
-                    className="text-gray-50"
+                    className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400"
                     value="default"
                     disabled
                     hidden
@@ -238,7 +238,7 @@ export default function CreateCollection() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-white">
+                <label className="block text-sm font-medium text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400">
                   Cover photo
                 </label>
                 <div className="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
@@ -285,7 +285,7 @@ export default function CreateCollection() {
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-medium text-white">
+                <label className="block text-sm font-medium text-transparent  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400">
                   Background photo
                 </label>
                 <div className="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
@@ -336,7 +336,7 @@ export default function CreateCollection() {
               <button
                 type="button"
                 onClick={createCollection}
-                className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md bg-tertiary"
+                className="inline-flex justify-center py-2 px-4 border border-pink-400 hover:text-purple-600 text-pink-300  bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400 hover:bg-transparent shadow-sm text-sm font-medium rounded-md "
               >
                 Create Collection
               </button>
