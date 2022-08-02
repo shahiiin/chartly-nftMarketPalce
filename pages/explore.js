@@ -8,6 +8,7 @@ import { marketplaceAddress } from "../config";
 
 import NFTMarketplace from "../artifacts/contracts/Marketplace.sol/NFTMarketplace.json";
 
+
 const style = {
   wrapper: ``,
   walletConnectWrapper: `flex flex-col justify-center items-center h-screen w-screen bg-[#3b3d42] `,
@@ -104,6 +105,7 @@ export default function Explore() {
           </div>
         </div>
       )}
+     
     </div>
   );
 }

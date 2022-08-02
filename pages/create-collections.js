@@ -8,6 +8,7 @@ const client = ipfsHttpClient("https://ipfs.infura.io:5001/api/v0");
 import NFTMarketplace from "../artifacts/contracts/Marketplace.sol/NFTMarketplace.json";
 import { marketplaceAddress } from "../config";
 
+
 export default function CreateCollection() {
   const [value, setValue] = useState("default");
   const [fileUrl, setFileUrl] = useState(null);
@@ -97,7 +98,8 @@ export default function CreateCollection() {
   }
 
   return (
-    <div className="justify-between">
+    <div className="justify-between" style={{ background: "linear-gradient(125deg, rgb(17, 10, 38), #542167, #34c2ac)",
+    backgroundRepeat: "no-repeat"}}>
       <div className="relative bg-gray overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="relative z-10 pb-8 bg-gray sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
@@ -342,6 +344,7 @@ export default function CreateCollection() {
           </div>
         </form>
       </div>
+      
     </div>
   );
 }

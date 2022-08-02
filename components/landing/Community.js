@@ -1,13 +1,11 @@
 import { FaDiscord } from "react-icons/fa";
 export default function Community() {
   return (
-    <>
-    
-    
-      <div
+    <div className="h-[45vh]">
+    <div
         className="container mx-auto py-4 md:py-16 px-3 md:px-0 
-        bg-gradient-to-r from-[#2b0351] to-[#7c498f] 
-        rounded-3xl flex flex-col items-center gap-6 mb-20"
+        border-[#4e2f6b] bg-gradient-to-r from-[#542167] to-[#328a7d] 
+        rounded-3xl flex flex-col items-center gap-6 mb-10 h-[40vh]"
         data-aos="fade-up"
         data-aos-duration="2000"
       >
@@ -22,6 +20,7 @@ export default function Community() {
           <FaDiscord size={28} color='purple' /> Launch Discord
         </button>
       </div>
-    </>
+    
+    </div>
   );
 }

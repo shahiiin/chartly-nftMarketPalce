@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       <div
-        className="border-t-4 border-[#4e2f6b] bg-gradient-to-r from-[#542167] to-[#34c2ac]mt-25 py-10 text-dark"
+        className="border-t-2 border-[#4e2f6b] bg-gradient-to-r from-[#542167] to-[#84d7cb] mt-25 py-10"
         data-aos="fade-up"
         data-aos-duration="2000"
       >
@@ -41,7 +41,7 @@ export default function Footer() {
       <span className="block text-sm  sm:text-center 
       text-[#2b0351]">
         © 2022{" "}
-        <a href="https://flowbite.com" className="hover:underline text-[#2b0351]">
+        <a href="https://flowbite.com" className="hover:underline text-    [#2b0351]">
           NFT Marketplace™
         </a>
         . All Rights Reserved.

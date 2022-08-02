@@ -7,6 +7,7 @@ import { marketplaceAddress } from "../config";
 
 import NFTMarketplace from "../artifacts/contracts/Marketplace.sol/NFTMarketplace.json";
 
+
 export default function CreatorDashboard() {
   const [nfts, setNfts] = useState([]);
   const [loadingState, setLoadingState] = useState("not-loaded");
@@ -51,7 +52,8 @@ export default function CreatorDashboard() {
   if (loadingState === "loaded" && !nfts.length)
     return <h1 className="py-10 px-20 text-3xl">No NFTs listed</h1>;
   return (
-    <div>
+    <div style={{ background: "linear-gradient(125deg, rgb(17, 10, 38), #542167, #34c2ac)",
+    backgroundRepeat: "no-repeat"}}>
       <div className="p-4">
         <h2 className="text-2xl py-2">Items Listed</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
@@ -67,6 +69,7 @@ export default function CreatorDashboard() {
           ))}
         </div>
       </div>
+     
     </div>
   );
 }

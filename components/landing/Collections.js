@@ -21,7 +21,7 @@ export default function Collections() {
       
           return(
           <div key={index} data-aos="fade-up" data-aos-duration="3000">
-                <div className="border-2 md:border-4  rounded-2xl border-[#34c2ac]  p-3 flex flex-col gap-4 hover:scale-105 transition-all cursor-pointer ">
+                <div className="border-2 md:border-4  rounded-2xl border-[#34c2ac]  p-3 flex flex-col gap-4 hover:scale-105 transition-all cursor-pointer md:col-span-1">
                   <img
                     src={`/img/${item.image}`}
                     alt=""

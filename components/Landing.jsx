@@ -5,9 +5,12 @@ import Steps from './landing/Steps'
 import Creators from './landing/Creators'
 import Community from './landing/Community'
 
+
 const Landing = () => {
   return (
-    <div>
+    <div style={{background: "linear-gradient(125deg, rgb(17, 10, 38), #542167, #34c2ac)",
+      backgroundRepeat: "no-repeat",
+      height:"auto"}}>
       <Hero />
       <Collections />
       <Steps />

@@ -9,6 +9,7 @@ import { useRouter } from "next/router";
 import { marketplaceAddress } from "../config";
 
 import NFTMarketplace from "../artifacts/contracts/Marketplace.sol/NFTMarketplace.json";
+import Footer from "../components/landing/Footer";
 
 export default function MyAssets() {
   const [nfts, setNfts] = useState([]);
@@ -58,7 +59,8 @@ export default function MyAssets() {
   if (loadingState === "loaded" && !nfts.length)
     return <h1 className="py-10 px-20 text-3xl">No NFTs owned</h1>;
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center" style={{ background: "linear-gradient(125deg, rgb(17, 10, 38), #542167, #34c2ac)",
+    backgroundRepeat: "no-repeat"}}>
       <div className="p-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           {nfts.map((nft, i) => (
@@ -79,6 +81,8 @@ export default function MyAssets() {
           ))}
         </div>
       </div>
+     
     </div>
+    
   );
 }
